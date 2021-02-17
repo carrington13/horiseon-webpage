@@ -10,5 +10,8 @@ A landing page for Horiseon, a company that provides information and potential s
 ## Website
 https://carrington13.github.io/horiseon-webpage
 
+## Screenshot
+![screenshot](assets/images/screenshot.png)
+
 ## Contribution
 Code refactored by Casey Arrington
