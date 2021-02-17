@@ -11,16 +11,7 @@ body {
 
 p {
     font-size: 16px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+    line-height: 1.5;
 }
 /* Global Style end */
 
@@ -58,7 +49,7 @@ p {
     margin-left: 25px;
 }
 
-a {
+.header a {
     color: #ffffff;
     text-decoration: none;
 }
@@ -77,9 +68,10 @@ a {
 
 /* Main/Content start */
 .content {
-    width: 75%;
+    width: 76%;
     display: inline-block;
     margin-left: 20px;
+    margin-bottom: 30px;
 }
 
 .content section {
@@ -104,6 +96,7 @@ a {
 /* Benefit Style begin */
 .benefits {
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 20px;
     clear: both;
     float: right;
@@ -114,7 +107,7 @@ a {
 }
 
 .benefit {
-    margin-bottom: 32px;
+    margin-bottom: 25px;
     color: #ffffff;
 }
 
@@ -140,4 +133,15 @@ a {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* Utility Classes */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
